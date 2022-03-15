@@ -44,6 +44,5 @@ Customer Churn Prediction
 <img src="2.PNG">
 # Result:
 My rank was not that good, My rank is 180.
-<img src="3.PNG">
 # Learning:
 - It was a good experience to participate and i got to know where i am lacking.
