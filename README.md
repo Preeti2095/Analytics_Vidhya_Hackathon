@@ -1,6 +1,6 @@
 # Analytics_Vidhya_Hackathon
 This repository contains the code and approach used in the hackathon
-<img src="">
+<img src="1.png">
 # Problem Statement
 Customer Churn Prediction
 # Approach
