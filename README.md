@@ -36,3 +36,12 @@ Customer Churn Prediction
 - **Credit Category**: This variable has thre category, average,poor and good. And as expected, credit_card with poor rating has more churning rate than others. So, kept this variable for the model.
 - **Is_Churn**: This is the target variable. It has only two values means binary classification. But this variable is imbalanced and hence did resampling with oversampling method.
 
+# Model_Building
+- **Logistic Regression:** It gave f1-score as 0.570218249616144 on public dataset and	0.550845492780977 on private dataset.
+- **RidgeRegressor Classifier**: It gave f1-score of 0.573 on public dataset and 0.55 on private dataset.
+- **Random Forest**: It gave f1-score of 0.567866341247455 on public dataset and 0.557328952155064 on private dataset.
+# These are my scores for various submissions:
+<img src="2.PNG">
+
+# Learning:
+- It was a good experience to participate and i got to know where i am lacking.
