@@ -29,4 +29,8 @@ Customer Churn Prediction
 - **Income**: Income is a categorical variable and it had 4 type, less than 5L, 5-10L,10-15L, greater than 15L. Using pivot table i saw that less than 10L income, people are less churning and greater than 10L people i more churning. So i created two new categories as less than 10L and greater than 10L and replaced all according to respective category.
 - **Balance**: I just scaled the Balance column and nothing more.
 -    But watching others approach i got to know that there were outliers in this column and treatment was required. (I am stupid)
-- **Vintage**: Using pivot table with churn column i saw vintage is not able to distinguish or show any pattern for churn rate according to the category
+- **Vintage**: Using pivot table with churn column i saw vintage is not able to distinguish or show any pattern for churn rate according to the category but i saw it was showing some pattern with transaction_status, so i kept this variable.
+- **Transaction_Status**: This is a categorical variable. And it clearly shows that a person that has not done any transaction in past three months are more likely to churn. So, I kept this variable.
+- **Product_Holdings**: This feature didn't showed any relation with target variable, hence i didn't used this in model building.
+- **Credit Card**: This feature told that the churning is not due to whether the person has credit card or not. Hence didn't used the feature for modle building.
+- **Credit Category**: This variable has thre category, average,poor and good. And as expected, credit_card
