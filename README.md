@@ -42,7 +42,6 @@ Customer Churn Prediction
 - **Random Forest**: It gave f1-score of 0.567866341247455 on public dataset and 0.557328952155064 on private dataset.
 # These are my scores for various submissions:
 <img src="2.PNG">
-# Result:
-My rank was not that good, My rank is 180.
+# Rank: 180.
 # Learning:
 - It was a good experience to participate and i got to know where i am lacking.
