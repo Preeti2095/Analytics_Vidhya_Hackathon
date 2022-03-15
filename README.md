@@ -33,4 +33,6 @@ Customer Churn Prediction
 - **Transaction_Status**: This is a categorical variable. And it clearly shows that a person that has not done any transaction in past three months are more likely to churn. So, I kept this variable.
 - **Product_Holdings**: This feature didn't showed any relation with target variable, hence i didn't used this in model building.
 - **Credit Card**: This feature told that the churning is not due to whether the person has credit card or not. Hence didn't used the feature for modle building.
-- **Credit Category**: This variable has thre category, average,poor and good. And as expected, credit_card
+- **Credit Category**: This variable has thre category, average,poor and good. And as expected, credit_card with poor rating has more churning rate than others. So, kept this variable for the model.
+- **Is_Churn**: This is the target variable. It has only two values means binary classification. But this variable is imbalanced and hence did resampling with oversampling method.
+
